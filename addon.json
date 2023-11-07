@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/abdnh/anki-addon-template",
+    "homepage": "https://github.com/abdnh/anki-add-card-to-subdeck",
     "min_point_version": 50,
     "name": "Add Card to Subdeck",
     "package": "add_card_to_subdeck"

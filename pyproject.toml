@@ -23,4 +23,4 @@ package-dir = { "add_card_to_subdeck" = "src" }
 [tool.setuptools_scm]
 
 [project.urls]
-Repository = "https://github.com/abdnh/anki-addon-template"
+Repository = "https://github.com/abdnh/anki-add-card-to-subdeck"
