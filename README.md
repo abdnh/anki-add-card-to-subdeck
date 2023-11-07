@@ -1,6 +1,6 @@
 # Add Card to Subdeck
 
-This add-on changes the Add screen to default to selecting the subdeck of the currently viewed card in the review screen.
+This add-on changes the Add screen to default to selecting the subdeck of the currently viewed card in the review screen or of the selected browser card.
 
 ## Download
 
