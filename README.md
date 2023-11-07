@@ -2,6 +2,10 @@
 
 This add-on changes the Add screen to default to selecting the subdeck of the currently viewed card in the review screen.
 
+## Download
+
+You can download the add-on from AnkiWeb: [1993514119](https://ankiweb.net/shared/info/1993514119)
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a list of changes.
