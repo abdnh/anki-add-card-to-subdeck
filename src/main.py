@@ -12,7 +12,12 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "vendor"))
 def on_add_cards_did_init(addcards: AddCards) -> None:
     card = mw.reviewer and mw.reviewer.card
     if not card:
-        browser: Optional[Browser] = dialogs._dialogs["Browser"][1]
+        active_window = mw.app.activeWindow()
+        browser: Optional[Browser]
+        if isinstance(active_window, Browser):
+            browser = active_window
+        else:
+            browser = dialogs._dialogs["Browser"][1]
         if browser and browser.selected_cards():
             card = mw.col.get_card(browser.selected_cards()[0])
         else:
